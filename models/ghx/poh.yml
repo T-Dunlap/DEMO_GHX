@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: poh_dedupe
+    description: Deduped Table
+    columns:
+      - name: cdp_unique_key
+        description: Primary key on the customers table
+        tests:
+          - unique
+          - not_null
