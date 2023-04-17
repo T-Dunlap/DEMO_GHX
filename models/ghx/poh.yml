@@ -4,7 +4,7 @@ models:
   - name: poh_dedupe
     description: Deduped Table
     columns:
-      - name: customer_key
+      - name: cdp_unique_key
         description: Primary key on the customers table
         tests:
           - unique

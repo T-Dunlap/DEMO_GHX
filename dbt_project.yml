@@ -36,5 +36,9 @@ models:
     # Applies to all files under models/example/
     ghx:
       materialized: table
+      database: 'tdunlap_ghx'
+      schema: 'data_acq'
 
 
+tests:
+  +severity: warn  # all tests
